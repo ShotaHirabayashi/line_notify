@@ -9,7 +9,7 @@ import sys
 
 def line(body):
     url = "https://notify-api.line.me/api/notify"
-    access_token = 'I89UnoDRgRSInUXJOTg5fAniBE08CUuxVqj8ythMLt8'
+    access_token = 'TOKEN
     headers = {'Authorization': 'Bearer ' + access_token}
     message = body
     payload = {'message': message}
@@ -18,7 +18,7 @@ def line(body):
 
 def send_image():
     url = "https://notify-api.line.me/api/notify"
-    access_token = 'I89UnoDRgRSInUXJOTg5fAniBE08CUuxVqj8ythMLt8'
+    access_token = 'TOKEN'
     # File Name
     FILENAME = os.path.join(os.path.dirname(os.path.abspath(__file__)), "screen.png")
     headers = {'Authorization': 'Bearer ' + access_token}
